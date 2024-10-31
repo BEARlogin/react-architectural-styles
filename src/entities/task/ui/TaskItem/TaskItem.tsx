@@ -2,8 +2,6 @@ import { Task } from '@entities/task/model/types';
 
 interface TaskItemProps {
   task: Task;
-  onToggle: (id: number) => void;
-  onDelete: (id: number) => void;
 }
 
 export const TaskItem = ({ task, children }: TaskItemProps & { children?: React.ReactNode }) => {

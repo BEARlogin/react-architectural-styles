@@ -1,4 +1,3 @@
-import { LogoutButton } from "@features/auth";
 import { AuthProvider } from "./providers/AuthProvider";
 import { MainRouter } from "./routers/MainRouter";
 import { BrowserRouter as Router } from "react-router-dom";

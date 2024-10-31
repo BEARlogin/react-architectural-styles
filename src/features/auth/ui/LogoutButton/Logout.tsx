@@ -1,4 +1,4 @@
-import { useAuth } from "@features/auth/model/useAuth";
+import { useAuth } from "@features/auth";
 
 export const LogoutButton = () => {
   const { logout, user } = useAuth();
